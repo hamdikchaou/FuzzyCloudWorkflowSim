@@ -1,0 +1,48 @@
+t1: d3; d6; d2; 
+t2: d3; du5; 
+t3: du5; d2; d1; du2; d7; 
+t4: d5; d6; d1; du5; 
+t5: d5; d6; d1; du3; d7; 
+t6: d5; d4; d1; du3; du4; 
+t7: d5; d1; du1; 
+
+dc1 : d4 (350.0); d7 (748.0); 
+dc2 : d5 (284.0); d1 (238.0); 
+dc3 : d6 (123.0); d2 (842.0); d3 (40.0); 
+
+Round 1
+Scheduled Tasks:    t1:dc3; t2:dc3; t3:dc2; t4:dc2; t5:dc2; t6:dc2; 
+Datasets Retrieved: t3:du5:dc3->dc2; t3:d2:dc3->dc2; t3:d7:dc1->dc2; t4:d6:dc3->dc2; t4:du5:dc3->dc2; t5:d6:dc3->dc2; t5:d7:dc1->dc2; t6:d4:dc1->dc2; t6:du4:dc1->dc2; Total: 9 (4066.0)
+dc2 executing t6 and sending the result (78.0) to dc2 required a reschedule
+du4 (770.0)  is no longer needed and was deleted from dc1
+du2 (436.0)  is no longer needed and was deleted from dc2
+du3 (1001.0)  is no longer needed and was deleted from dc2
+du5 (181.0)  is no longer needed and was deleted from dc3
+State before rescheduling:
+dc1 : d4 (350.0); d7 (748.0); 
+dc2 : d5 (284.0); d1 (238.0); 
+dc3 : d6 (123.0); d2 (842.0); d3 (40.0); 
+State after rescheduling:
+dc1 : du1 (78.0); d3 (40.0); d2 (842.0); d6 (123.0); 
+dc2 : d5 (284.0); d1 (238.0); 
+dc3 : d7 (748.0); d4 (350.0); 
+ - Dataset du1 moved to dc1
+ - Dataset d3 moved to dc1
+ - Dataset d2 moved to dc1
+ - Dataset d6 moved to dc1
+ - Dataset d7 moved to dc3
+ - Dataset d4 moved to dc3
+Total movement during this redistribution:
+	6 (2181.0)
+
+Round 2
+Scheduled Tasks:    t7:dc2; 
+Datasets Retrieved: t7:du1:dc1->dc2; Total: 1 (78.0)
+
+Total Retrieved:     10 (4144.0)
+Total Sent:          3 (1954.0)
+Total Sent fuzzy:          3 (1954.0)
+Total Redistributed: 6 (2181.0)
+                     -------------
+Total Movement:      19 (8279.0)
+

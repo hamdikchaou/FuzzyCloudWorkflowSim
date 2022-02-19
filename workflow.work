@@ -1,0 +1,30 @@
+datasets intilales
+d1:104.0
+d2:50.0
+d3:34.0
+d4:57.0
+d5:105.0
+
+datasets g�n�r�es
+du1:50.0
+du2:109.0
+du3:92.0
+du4:71.0
+
+tasks
+t1-->OutputDatasets=du1; |InputDatasets=d1;d3;d4;
+predecessors tasks=[] |successors tasks=[t2]
+
+t2-->OutputDatasets=du2; |InputDatasets=d5;du1;
+predecessors tasks=[t1] |successors tasks=[t3]
+
+t3-->OutputDatasets=du3; |InputDatasets=d1;d2;du2;
+predecessors tasks=[t2] |successors tasks=[t5, t4]
+
+t4-->OutputDatasets= |InputDatasets=d3;d4;du3;du4;
+predecessors tasks=[t3, t5] |successors tasks=[]
+
+t5-->OutputDatasets=du4; |InputDatasets=d1;d4;du3;
+predecessors tasks=[t3] |successors tasks=[t4]
+
+

@@ -1,0 +1,29 @@
+Final Report
+============
+Tests: 1
+Tests Failed: 0
+Parameters:
+  Data Centers: 3
+  |  p_ini: 0.6
+  |  p_max: 1.0
+  |  size(one center):  268.8=|datasetsSize|*|0.4|
+  |  shift: 0.0%
+  -----------
+
+  Workflows:
+  |  DataSets Count: 9  |  DataSets Size: 672.0
+  |  Initial DataSets Count: 5
+  |  Generated DataSets Count: 4
+  |  Task Count: /C:/dax/Montage_7.xml
+  |  Fixed DataSet Percentage: 0.0%
+  --------------------------
+
+Yuan: Data Retrieved:   4.0 (299.0)
+      Data Sent:        2.0 (201.0)
+      Data Rescheduled: 0.0 (0.0)
+      Number of Reschedules: 0.0
+      Total Movement:   6.0 (500.0)
+
+      Average Dataset Movement Std Dev: 0.4714045207910318
+      Average Task Execution Std Dev: 0.4714045207910313
+

@@ -1,0 +1,47 @@
+t1: d16; d12; d18; d22; 
+t2: d12; d18; d4; d23; 
+t3: d12; d18; d15; d9; 
+t4: d8; d12; d10; d18; 
+t5: d12; d6; d18; d13; 
+t6: d11; d12; d18; d1; 
+t7: d20; d12; d18; d21; 
+t8: d7; d16; d12; d18; d22; du12; 
+t9: d7; d12; d18; d4; d23; du17; 
+t10: d7; d12; d18; d15; d9; du19; 
+t11: d7; d8; d12; d10; d18; du29; 
+t12: d7; d12; d6; d18; d13; du8; 
+t13: d7; d11; d12; d18; d1; du18; 
+t14: d7; d20; d12; d18; d21; du10; 
+t15: du14; du21; du4; du1; du28; du2; du3; 
+t16: du23; 
+t17: d3; 
+t18: d17; 
+t19: d5; 
+t20: d14; 
+t21: d2; 
+t22: d19; 
+t23: d7; d16; d12; d18; d22; du25; 
+t24: d7; d12; d18; d4; d23; du7; 
+t25: d7; d12; d18; d15; d9; du27; 
+t26: d7; d8; d12; d10; d18; du30; 
+t27: d7; d12; d6; d18; d13; du5; 
+t28: d7; d11; d12; d18; d1; du22; 
+t29: d7; d20; d12; d18; d21; du24; 
+t30: du9; du20; du15; du13; du16; du26; du11; 
+
+dc1 : d19 (40707.0); d17 (20368.0); d14 (18140.0); d5 (19233.0); d3 (30607.0); d21 (1.5580489E7); d20 (1.5597923E7); d18 (902334.0); d12 (8415922.0); d7 (2421423.0); 
+dc2 : d22 (1.5609369E7); d16 (1.5628226E7); d15 (1.5586481E7); d9 (1.5600372E7); 
+dc3 : d10 (1.5591099E7); d8 (1.557609E7); d13 (1.5583818E7); d6 (1.5581755E7); 
+dc4 : d23 (1.564162E7); d4 (1.5598939E7); d11 (1.557997E7); d1 (1.5603086E7); d2 (30194.0); 
+
+Round 1
+Scheduled Tasks:    t1:dc4; t2:dc1; t3:dc1; t4:dc3; t5:dc3; t6:dc1; t7:dc1; t8:dc3; t9:dc4; t10:dc1; t11:dc4; t12:dc1; t13:dc4; t14:dc2; t15:dc4; t16:dc1; t17:dc4; t18:dc1; t19:dc3; t20:dc1; t21:dc4; t22:dc1; t23:dc4; t24:dc2; t25:dc4; t26:dc2; t27:dc4; t28:dc1; t29:dc4; t30:dc4; 
+Datasets Retrieved: t1:d16:dc2->dc4; t1:d22:dc2->dc4; t2:d4:dc4->dc1; t2:d23:dc4->dc1; t3:d15:dc2->dc1; t3:d9:dc2->dc1; t4:d8:dc3->dc3; t4:d10:dc3->dc3; t5:d6:dc3->dc3; t5:d13:dc3->dc3; t6:d11:dc4->dc1; t6:d1:dc4->dc1; t8:d16:dc2->dc3; t8:d22:dc2->dc3; t9:d4:dc4->dc4; t9:d23:dc4->dc4; t10:d15:dc2->dc1; t10:d9:dc2->dc1; t11:d8:dc3->dc4; t11:d10:dc3->dc4; t12:d6:dc3->dc1; t12:d13:dc3->dc1; t13:d11:dc4->dc4; t13:d1:dc4->dc4; t23:d16:dc2->dc4; t23:d22:dc2->dc4; t24:d4:dc4->dc2; t24:d23:dc4->dc2; t25:d15:dc2->dc4; t25:d9:dc2->dc4; t26:d8:dc3->dc2; t26:d10:dc3->dc2; t27:d6:dc3->dc4; t27:d13:dc3->dc4; t28:d11:dc4->dc1; t28:d1:dc4->dc1; Total: 36 (5.61542475E8)
+
+Total Retrieved:     36 (5.61542475E8)
+Total Sent:          15 (5819794.0)
+Total Sent fuzzy:          15 (5819794.0)
+Total Redistributed: 0 (0.0)
+                     -------------
+Total Movement:      51 (5.67362269E8)
+
